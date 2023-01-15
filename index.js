@@ -32,7 +32,7 @@ async function incrementCounter(sbClient) {
   } catch (err) {
     console.error(err)
   } finally {
-    setTimeout(() => incrementCounter(sbClient), 50 * 1000)
+    setTimeout(() => incrementCounter(sbClient), 1 * 60 * 1000)
   }
 }
 
